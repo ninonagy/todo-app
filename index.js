@@ -139,7 +139,8 @@ class TaskPanel extends React.Component {
           <ul className="body">
             { this.props.category.tasks.map(item => (
               <li key={item.id}>
-                <div className={item.completed ? "fa fa-check-square-o check" : "fa fa-square-o check"} onClick={() => this.props.onCheckBoxClick(item.id)}></div>
+                <div className={item.completed ? "fa fa-check-square-o check" : "fa fa-square-o check"} 
+                     onClick={() => this.props.onCheckBoxClick(item.id)}></div>
                 <div className={item.completed ? "text line-through" : "text"}>
                   {item.text}
                 </div>
