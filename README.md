@@ -14,4 +14,4 @@ We need to create database by navigating to 'localhost/init_database.php' in bro
 Database 'database' created successfully.
 ```
 
-And this is it, now we are ready to start using Todo App.
+And this is it, now you are ready to start using Todo App.
