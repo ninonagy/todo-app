@@ -1,5 +1,5 @@
 # How to run
-To start, you need to have localhost set up (I prefer MAMP). Add files to your host directory and configure 'global.php' depending on your connection parameters.
+To start, you need to have localhost set up (I prefer MAMP). Add files to your host directory and configure 'global.php' depending on your connection parameters to be able to connect to MySQL Server.
 
 ```
 $HOST = "localhost";
